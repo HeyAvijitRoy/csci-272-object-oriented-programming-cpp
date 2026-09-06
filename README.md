@@ -5,7 +5,7 @@
 
 Clear examples, guided experiments, and practice activities for learning object-oriented programming in C++.
 
-**[Start with Lesson 01](Lesson%2001/README.md)** · **[Find the current syllabus](https://avijitroy.com/teaching/)** · **[Open Brightspace](https://brightspace.cuny.edu/)**
+**[Open Assignment 1](assignments/assignment-01.md)** · **[Start with Lesson 01](Lesson%2001/README.md)** · **[Find the current syllabus](https://avijitroy.com/teaching/)** · **[Open Brightspace](https://brightspace.cuny.edu/)**
 
 > Read the code. Predict what it will do. Run it. Change one thing. Explain the result.
 
@@ -26,12 +26,12 @@ This repository helps students move from procedural C++ toward clear, modular ob
 
 ## Start Here
 
-1. Open the [Lesson 01 guide](Lesson%2001/README.md).
-2. Choose the next example in the lesson's learning path.
-3. Predict its output before compiling it.
-4. Run the unchanged program and compare the result with your prediction.
-5. Complete at least one `TRY THIS` task.
-6. Explain what changed and why.
+1. Complete [Assignment 1](assignments/assignment-01.md) when it is announced on Brightspace.
+2. Open the [Lesson 01 guide](Lesson%2001/README.md).
+3. Choose the next example in the lesson's learning path.
+4. Predict its output before compiling it.
+5. Run the unchanged program and compare the result with your prediction.
+6. Complete at least one `TRY THIS` task and explain what changed and why.
 
 The goal is not to copy a finished program. The goal is to understand the decisions, trace the data, test an idea, and learn from the result.
 
@@ -42,6 +42,14 @@ The goal is not to copy a finished program. The goal is to understand the decisi
 | [Lesson 01](Lesson%2001/README.md) | Functions, arrays, and pointers | 17 runnable examples, guided modifications, expected behavior, checkpoint challenges, and reflection questions |
 
 Each lesson directory has its own `README.md`. Read that guide before opening individual source files; it explains the sequence, prerequisites, expected results, and practice tasks.
+
+## Assignment Catalog
+
+| Assignment | Focus | Instructions |
+| --- | --- | --- |
+| Assignment 1 | GitHub account, public course repository, README files, commits, and first C++ practice file | [Open Assignment 1](assignments/assignment-01.md) |
+
+The [assignments index](assignments/README.md) lists published instructions. Brightspace remains authoritative for due dates, submission areas, rubrics, feedback, grades, and changes.
 
 ## How the Materials Are Designed
 
@@ -75,6 +83,9 @@ The repository will support practice with:
 .
 ├── README.md
 ├── .gitignore
+├── assignments/
+│   ├── README.md
+│   └── assignment-01.md
 └── Lesson 01/
     ├── README.md
     ├── 01-functions-basics.cpp
@@ -107,6 +118,8 @@ Use version control to record meaningful stages of your work:
 - keep `.h` and `.cpp` files organized when interfaces and implementations are separated.
 
 Do not publish graded assignment solutions. If an assignment uses GitHub, follow the repository-privacy and submission instructions posted on Brightspace.
+
+Assignment 1 uses a public course practice repository. Later graded programming assignments may require a private repository or a Brightspace file submission; follow the instructions for each assignment.
 
 ## Academic Use
 
