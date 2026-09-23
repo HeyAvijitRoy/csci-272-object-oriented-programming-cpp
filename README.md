@@ -5,7 +5,7 @@
 
 Clear examples, guided experiments, and practice activities for learning object-oriented programming in C++.
 
-**[Open Assignment 1](assignments/assignment-01.md)** · **[Start with Lesson 01](Lesson%2001/README.md)** · **[Find the current syllabus](https://avijitroy.com/teaching/)** · **[Open Brightspace](https://brightspace.cuny.edu/)**
+**[Open Assignment 1](assignments/assignment-01.md)** · **[Start with Lesson 01](Lesson%2001/README.md)** · **[Continue to Lesson 02](Lesson%2002/README.md)** · **[Find the current syllabus](https://avijitroy.com/teaching/)** · **[Open Brightspace](https://brightspace.cuny.edu/)**
 
 > Read the code. Predict what it will do. Run it. Change one thing. Explain the result.
 
@@ -28,10 +28,11 @@ This repository helps students move from procedural C++ toward clear, modular ob
 
 1. Complete [Assignment 1](assignments/assignment-01.md) when it is announced on Brightspace.
 2. Open the [Lesson 01 guide](Lesson%2001/README.md).
-3. Choose the next example in the lesson's learning path.
-4. Predict its output before compiling it.
-5. Run the unchanged program and compare the result with your prediction.
-6. Complete at least one `TRY THIS` task and explain what changed and why.
+3. Continue with the [Lesson 02 guide](Lesson%2002/README.md) after the Lesson 01 core examples.
+4. Choose the next example in the lesson's learning path.
+5. Predict its output before compiling it.
+6. Run the unchanged program and compare the result with your prediction.
+7. Complete at least one `TRY THIS` task and explain what changed and why.
 
 The goal is not to copy a finished program. The goal is to understand the decisions, trace the data, test an idea, and learn from the result.
 
@@ -40,6 +41,7 @@ The goal is not to copy a finished program. The goal is to understand the decisi
 | Lesson | Topics | Materials |
 | --- | --- | --- |
 | [Lesson 01](Lesson%2001/README.md) | Functions, arrays, and pointers | 17 runnable examples, guided modifications, expected behavior, checkpoint challenges, and reflection questions |
+| [Lesson 02](Lesson%2002/README.md) | Function templates and vectors | 12 runnable examples, guided modifications, expected behavior, checkpoint challenges, and reflection questions |
 
 Each lesson directory has its own `README.md`. Read that guide before opening individual source files; it explains the sequence, prerequisites, expected results, and practice tasks.
 
@@ -68,7 +70,7 @@ Examples may prioritize instructional clarity and step-by-step reasoning over pr
 
 The repository will support practice with:
 
-- functions, arrays, pointers, vectors, and strings;
+- functions, function templates, arrays, pointers, vectors, and strings;
 - classes, objects, constructors, and destructors;
 - encapsulation, composition, and separate interfaces and implementations;
 - streams, stringstreams, text files, and CSV files;
@@ -86,12 +88,18 @@ The repository will support practice with:
 ├── assignments/
 │   ├── README.md
 │   └── assignment-01.md
-└── Lesson 01/
+├── Lesson 01/
+│   ├── README.md
+│   ├── 01-functions-basics.cpp
+│   ├── 02-function-prototypes.cpp
+│   ├── ...
+│   └── 17-function-pointers-optional.cpp
+└── Lesson 02/
     ├── README.md
-    ├── 01-functions-basics.cpp
-    ├── 02-function-prototypes.cpp
+    ├── 01_function_template.cpp
+    ├── 02_vector_basics.cpp
     ├── ...
-    └── 17-function-pointers-optional.cpp
+    └── 12_student_scores.cpp
 ```
 
 Lesson folders may contain:
